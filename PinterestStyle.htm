@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Untitled Page</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="PinterestStyle.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("img").load(function () {
+                $("#Container").PinterestStyle(3);
+
+            });
+        });
+    </script>
+    <style type="text/css">
+        #Container
+        {
+            width:1200px;
+            margin:0 auto;    
+            background-color:Aqua;
+        }
+        .Content
+        {
+            margin-left: 0px;
+            box-sizing: border-box;
+            background-color:White;
+            border:1px solid blue;
+            padding:3px;
+            text-align:center
+        }
+        .Content img
+        {
+            width:95%;    
+        }
+    </style>
+</head>
+<body>
+    <div id="Container">
+        <div class="Content">Frame 1 - <strong>Important Note:</strong> The function must be called after the images had been loaded. If the images are not loaded, the calculated heights of the elements will be wrong.</div>
+        <div class="Content">Frame 2 - Dolore pariatur officia, lorem tenderloin in shankle minim quis tail ham hock ham. Aliquip hamburger brisket shankle flank ut. Tail non bacon tempor meatloaf ham shoulder incididunt. Swine t-bone qui non, drumstick culpa turkey duis in anim ea tenderloin tempor mollit jowl. In sausage adipisicing chuck, beef ribs aliqua ground round kielbasa nostrud eiusmod t-bone sunt cupidatat. Nostrud dolore prosciutto meatball esse cow aliquip turkey proident pork loin.</div>
+        <div class="Content">Frame 3 - Nisi alcatra deserunt frankfurter. Voluptate ad pastrami ham landjaeger pork pork chop shoulder pancetta. Mollit porchetta irure aliqua, nisi et dolore cupim pork loin flank. Shoulder sausage ipsum, ut meatball eu corned beef turducken irure officia spare ribs tenderloin magna esse veniam. Pork chop turkey tempor nisi ball tip. T-bone velit ribeye, prosciutto excepteur alcatra consequat elit bresaola occaecat do exercitation ball tip. Adipisicing officia ribeye filet mignon ad t-bone.</div>
+        <div class="Content">Frame 4 - <img src="http://dummy-images.com/abstract/dummy-454x280-Map.jpg" /> </div>
+        <div class="Content">Frame 5 - <img src="http://dummy-images.com/abstract/dummy-375x500-Utrecht.jpg" /> With some text</div>
+        <div class="Content">Frame 6 - T-bone kielbasa sed aliquip eiusmod incididunt culpa leberkas deserunt. Shankle ea tri-tip in laboris ut bresaola. Eiusmod enim swine, excepteur ground round duis in. Incididunt ground round capicola flank officia consequat aliquip ullamco cow quis in pork loin. Biltong turducken ham short ribs salami pig.</div>
+        <div class="Content">Frame 7 - Tri-tip short loin jerky, non esse tempor cupim beef ribs nostrud sed consequat laboris tail pork chop. Filet mignon beef biltong ea fugiat pig tongue. Cow tongue corned beef venison sed ham deserunt. Biltong corned beef frankfurter, spare ribs sausage beef ribs jerky commodo reprehenderit. Id ad sunt, brisket nulla salami porchetta in ball tip eiusmod fatback. Biltong spare ribs ullamco proident short loin, cupim fatback dolore corned beef.</div>
+        <div class="Content">Frame 8 - Cupim aliqua pancetta ullamco, shankle duis laboris pariatur exercitation short ribs tempor. Fugiat prosciutto short loin capicola nulla in. Kevin elit sausage fatback ullamco veniam meatloaf. Enim pariatur proident, ad flank ipsum cillum pork loin. In tri-tip fatback dolore shoulder ham hock bacon salami tongue brisket do minim commodo cillum corned beef. Doner elit pariatur in kevin t-bone irure esse tempor ball tip tail do nisi sausage. Chuck ham hock eiusmod pancetta aliqua do alcatra labore landjaeger corned beef pork pork belly rump tenderloin proident.</div>
+        <div class="Content">Frame 9 - Esse lorem ribeye reprehenderit nulla, sed pork loin beef strip steak bresaola boudin ut in. Chuck nostrud cow consectetur ullamco meatloaf. Sirloin sed mollit qui. Labore velit beef ribs, venison tri-tip biltong pork belly magna.</div>
+    </div>
+</body>
+</html>
